@@ -1,5 +1,5 @@
 # Swarms Xbox interface
-Generates an interface between Swarms input device and an userland Xpad device.
+Generates an interface between Swarms input device and a userland Xpad device.
 
 ## Getting Started
 The input device outputs an UDP-packet with a JSON-object. Therefore, some steps are required to mask the input device as a gamepad.

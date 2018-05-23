@@ -24,7 +24,7 @@ for dev in DEVICES:
 INPUT_DEVICE = InputDevice(PS4)
 
 USER_INPUT = UInput.from_device(INPUT_DEVICE, name='xboxdrv_emu')
-print(USER_INPUT.capabilities(verbose=True))
+print('Found PS4-controller.')
 
 SOCK = socket.socket(socket.AF_INET,
                      socket.SOCK_DGRAM)
