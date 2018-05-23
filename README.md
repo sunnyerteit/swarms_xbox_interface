@@ -50,5 +50,7 @@ sudo chmod +x Controller_event.sh
 
 sudo ./Controller_event.sh
 ```
+
+When running the script, there's an initial delay of <2 minutes, as xboxdrv requires some time to initialize.
 ### Physical input
 As of May 2018, there are only four physical joysticks that generates output to the userland Xpad device.
