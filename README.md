@@ -34,6 +34,9 @@ The machine doesn't send out signals by default. In the home directory there's a
 
 This script sends a JSON-list through UDP-packets.
 
+### PS4-controller connection
+To translate a JSON-object to a gamepad, a template or mold has to be employed. For this repo, the mold is a physical PS4-controller. For the shell script to correctly work, a physical PS4-controller needs to be connected by USB. The PS4-controller connection can be investigated through ```lsbus```.
+
 ### Installation
 ```sh
 git clone https://github.com/sunnyerteit/swarms_xbox_interface
