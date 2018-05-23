@@ -23,25 +23,25 @@ The Swarms input device employ an ethernet interface. The input device consists 
 ![Image of IPv4-settings on Ubuntu](IPv4.png)
 
 In the terminal window the input device can be accessed by ssh-connection.
-```bash
+```sh
 ssh pi@172.16.0.12
 ```
 
 The machine doesn't send out signals by default. In the home directory there's a shell script that accesess the RPi.GPIO Python library:
-```bash
+```sh
 ./start_local.sh
 ```
 
 This script sends a JSON-list through UDP-packets.
 
 ### Installation
-```bash
+```sh
 git clone https://github.com/sunnyerteit/swarms_xbox_interface
 ```
 
 ## Running the program
 After prerequisites are fulfilled and connection is established with the input device, the program is started through a shell-script:
-```bash
+```sh
 # The first step allows everyone to execute the script.
 sudo chmod +x Controller_event.sh
 
