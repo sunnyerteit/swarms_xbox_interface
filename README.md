@@ -7,6 +7,7 @@ Generates an interface between Swarms input device and an userland Xpad device.
 To employ the Swarms input device with Qgroundcontrol, the Swarms input device has to be masked as recognized gamepad controller, like the Xbox 360-controller.
 
 - [xboxdrv](https://pingus.seul.org/~grumbel/xboxdrv/)
+```The shell script employed in this repo assumes that xboxdrv is installed in /usr/bin/xboxdrv```
 - python 2.7 with [python-evdev](http://python-evdev.readthedocs.io/en/latest/install.html)
 
 ### Connection with the Swarms input device
